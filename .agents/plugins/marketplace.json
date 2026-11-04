@@ -1,0 +1,20 @@
+{
+  "name": "amazon-finance-tools",
+  "interface": {
+    "displayName": "亚马逊财务工具"
+  },
+  "plugins": [
+    {
+      "name": "amazon-pdf-finance-renamer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/amazon-pdf-finance-renamer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
