@@ -1,0 +1,4 @@
+interface:
+  display_name: "亚马逊PDF财务文件智能重命名助手"
+  short_description: "识别亚马逊PDF并输出按月份和公司命名的ZIP"
+  default_prompt: "使用 $amazon-pdf-finance-renamer 处理我上传的亚马逊PDF压缩包，并返回按月份和公司命名的重命名ZIP。"
